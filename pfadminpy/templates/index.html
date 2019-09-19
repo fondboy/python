@@ -1,0 +1,13 @@
+
+
+<h1>
+ {{hello}} 
+</h1>
+
+{% block mainbaody %}
+	{% if hello %}
+	判断{{hello}}
+	{% else %}
+		else  hello为空或者不存在
+	{% endif %}
+ {% endblock %}
